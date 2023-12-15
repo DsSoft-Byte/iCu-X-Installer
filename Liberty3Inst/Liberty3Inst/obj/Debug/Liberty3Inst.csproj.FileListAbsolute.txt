@@ -8,3 +8,14 @@ C:\Users\Daniel\source\repos\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.cs
 C:\Users\Daniel\source\repos\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.csproj.CoreCompileInputs.cache
 C:\Users\Daniel\source\repos\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.exe
 C:\Users\Daniel\source\repos\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.pdb
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\bin\Debug\Liberty3Inst.exe.config
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\bin\Debug\Liberty3Inst.exe
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\bin\Debug\Liberty3Inst.pdb
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.csproj.ResolveComReference.cache
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.Form1.resources
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.Properties.Resources.resources
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.csproj.GenerateResource.cache
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.exe
+C:\Users\Daniel\Documents\GitHub\iCu-X-Installer\Liberty3Inst\Liberty3Inst\obj\Debug\Liberty3Inst.pdb

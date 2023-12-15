@@ -29,6 +29,7 @@ namespace Liberty3Inst
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
@@ -37,6 +38,7 @@ namespace Liberty3Inst
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -73,11 +75,11 @@ namespace Liberty3Inst
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.checkBox1.Location = new System.Drawing.Point(17, 352);
+            this.checkBox1.Location = new System.Drawing.Point(152, 352);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(284, 17);
+            this.checkBox1.Size = new System.Drawing.Size(176, 17);
             this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Add iOSBridge and the plugin installer to System PATH";
+            this.checkBox1.Text = "Add iOSBridge to System PATH";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -88,7 +90,8 @@ namespace Liberty3Inst
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(788, 100);
             this.button1.TabIndex = 8;
-            this.button1.Text = "Install Now\r\nThis will install the newest version from GitHub on your System";
+            this.button1.Text = "Install Now\r\nThis will install the newest version of iOSBridge from GitHub on you" +
+    "r System";
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -121,12 +124,25 @@ namespace Liberty3Inst
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(369, 353);
+            this.label4.Location = new System.Drawing.Point(381, 353);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 13);
             this.label4.TabIndex = 11;
-            this.label4.Text = "Installer V1.0.3";
+            this.label4.Text = "Installer V1.0.5";
             this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Checked = true;
+            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.checkBox2.Location = new System.Drawing.Point(17, 352);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(109, 17);
+            this.checkBox2.TabIndex = 12;
+            this.checkBox2.Text = "Desktop Shortcut";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -134,6 +150,7 @@ namespace Liberty3Inst
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(845, 419);
+            this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
@@ -142,7 +159,8 @@ namespace Liberty3Inst
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "DsSoft iOSBridge Insatller";
@@ -162,6 +180,7 @@ namespace Liberty3Inst
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
 
